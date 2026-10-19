@@ -84,6 +84,7 @@ console.log(res.status); // 201
 }
 
 
+
 ## 3. PUT – Reemplazar un recurso completo
 
 **Para qué sirve:** actualizar un recurso existente **reemplazándolo entero** por lo que se envía. Es idempotente: enviarlo varias veces deja el mismo resultado.
@@ -123,6 +124,7 @@ console.log(res.status); // 200
   "userId": 1
 }
 
+
 ## 4. PATCH – Modificar parcialmente
 
 **Para qué sirve:** cambiar **solo algunos campos** de un recurso, sin tocar el resto.
@@ -160,6 +162,7 @@ console.log(res.status); // 200
 }
 
 
+
 ## 5. DELETE – Eliminar un recurso
 
 **Para qué sirve:** borrar un recurso del servidor. Es idempotente: borrar algo que ya se borró deja el mismo estado.
@@ -180,6 +183,7 @@ console.log(res.status); // 200
 **Respuesta:**
 ```json
 {}
+
 
 
 ## Diferencia entre PUT y PATCH
