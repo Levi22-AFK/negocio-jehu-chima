@@ -43,7 +43,6 @@ console.log(await res.json());
 }
 ```
 
-
 ---
 
 ## 2. POST – Crear un recurso
@@ -83,10 +82,8 @@ console.log(res.status); // 201
   "userId": 1,
   "id": 101
 }
-```
 
 
----
 
 ## 3. PUT – Reemplazar un recurso completo
 
@@ -126,9 +123,7 @@ console.log(res.status); // 200
   "body": "Este body reemplaza todo el post",
   "userId": 1
 }
-```
 
----
 
 ## 4. PATCH – Modificar parcialmente
 
@@ -165,9 +160,8 @@ console.log(res.status); // 200
   "title": "Solo cambio el título",
   "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum..."
 }
-```
 
----
+
 
 ## 5. DELETE – Eliminar un recurso
 
@@ -189,10 +183,8 @@ console.log(res.status); // 200
 **Respuesta:**
 ```json
 {}
-```
 
 
----
 
 ## Diferencia entre PUT y PATCH
 
