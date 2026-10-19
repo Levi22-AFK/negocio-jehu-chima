@@ -1,3 +1,3 @@
 # negocio-jehu-chima
 
-Práctica 1 – Programación Web III
+Práctica 1 – Programación Web III | Paralelo B
