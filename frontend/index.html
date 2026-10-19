@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador Pokémon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Buscador Pokémon</h1>
+    <p class="subtitulo">Consulta la PokeAPI por nombre o número</p>
+
+    <form id="formulario" class="buscador">
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Ej: pikachu, charizard, 25"
+        autocomplete="off"
+        aria-label="Nombre del pokémon"
+      >
+      <button type="submit" id="btnBuscar">Buscar</button>
+    </form>
+
+    <div id="mensaje" class="mensaje" role="status" aria-live="polite"></div>
+
+    <article id="tarjeta" class="tarjeta oculto">
+      <img id="imagen" src="" alt="">
+      <h2 id="pokeNombre"></h2>
+      <div id="tipos" class="tipos"></div>
+      <div class="datos">
+        <div>
+          <span class="etiqueta">Peso</span>
+          <span id="peso" class="valor"></span>
+        </div>
+        <div>
+          <span class="etiqueta">Altura</span>
+          <span id="altura" class="valor"></span>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
