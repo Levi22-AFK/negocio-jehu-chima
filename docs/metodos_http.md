@@ -43,7 +43,6 @@ console.log(await res.json());
 }
 ```
 
-![GET](capturas/get.png)
 
 ---
 
@@ -86,7 +85,6 @@ console.log(res.status); // 201
 }
 ```
 
-![POST](capturas/post.png)
 
 ---
 
@@ -130,8 +128,6 @@ console.log(res.status); // 200
 }
 ```
 
-![PUT](capturas/put.png)
-
 ---
 
 ## 4. PATCH – Modificar parcialmente
@@ -171,8 +167,6 @@ console.log(res.status); // 200
 }
 ```
 
-![PATCH](capturas/patch.png)
-
 ---
 
 ## 5. DELETE – Eliminar un recurso
@@ -197,7 +191,6 @@ console.log(res.status); // 200
 {}
 ```
 
-![DELETE](capturas/delete.png)
 
 ---
 
